@@ -1,0 +1,69 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Sở thích của bạn </title>
+  <style>
+    h1 {
+      color: white;
+      text-align: center;
+      margin: 0 auto;
+    }
+    form {
+      width: 500px;
+      border: 10px solid blue;
+      margin:  0 auto;
+    }
+    hobby{
+      margin-left: 75px;
+    }
+    table{
+      margin-left: 125px;
+      color: orange;
+    }
+    .hoten{
+      color : blue;
+      margin-left: 65px;
+    }
+    .email{
+      color : blue;
+      margin-left: 89px;
+
+    }
+  </style>
+</head>
+<body>
+<form>
+  <h1 style="background-color: orange"> Sở thích của bạn </h1> <br>
+  <label class="hoten"> Họ và tên : <input type="text" name="yourname"/> </label>
+  <br>
+
+  <div>
+  <label class="email"> Email : <input type="text" name="email"/></label>
+</div>
+  <br>
+  <label style="color: blue" class="hobby"/> Sở thích </label>
+  <table>
+    <tr class="b1">
+      <td></td>
+      <td><input type="checkbox" name="hobby"/> Thể thao </td>
+      <td><input type="checkbox" name="hobby"/> Âm nhạc </td>
+      <td><input type="checkbox" name="hobby"/> Đọc sách </td>
+    </tr>
+    <tr class="b2">
+      <td></td>
+      <td><input type="checkbox" name="hobby"/> Lướt wed </td>
+      <td><input type="checkbox" name="hobby"/> Chơi game </td>
+      <td><input type="checkbox" name="hobby"/> Điện ảnh </td>
+      <td><input type="checkbox" name="hobby"/> Du lịch </td>
+    </tr>
+  </table>
+  <br>
+  <div> <button style="margin-left: 20px;" type="submit" value="Gửi thông tin"> Gửi thông tin </button>
+  <button type="submit" value="Nhập lại" style="margin-left: 50px"> Nhập lại </button>
+</div>   <br>
+
+</form>
+</body>
+</html>
